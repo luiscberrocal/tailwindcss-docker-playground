@@ -1,7 +1,13 @@
 
 module.exports = {
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        brightRed: 'hsl(12, 88%, 59%)',
+
+      }
+    }
   },
   variants: {},
   plugins: [],
